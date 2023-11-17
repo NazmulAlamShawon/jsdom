@@ -1,3 +1,2 @@
-//  getelementById from
-const heading = document.getElementById('headeing');
-console.log(heading)
+const heading =  document.getElementsByTagName('h1');
+console.log(heading[1])
