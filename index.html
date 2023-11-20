@@ -22,9 +22,9 @@
     <!--  get by name end -->
 
     <div>
-        <h1>first heading</h1>
-        <h1>second heading</h1>
-        <h1>third heading</h1>
+        <h1 class="firstHead">first heading</h1>
+        <h1 class="firstHead">second heading</h1>
+        <h1 class="firstHead">third heading</h1>
         <h1>fourth heading</h1>
 
     </div>
@@ -43,6 +43,10 @@
         let heading = document.getElementsByTagName("h1")
         //   htmlCollection
         console.log(heading)
+
+        // class name get
+        let headName = document.getElementsByClassName("firstHead")  
+        console.log(headName)
     </script>
 </body>
 </html>
