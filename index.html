@@ -9,13 +9,24 @@
      
     <div>
          <p id="message"> paragraph is para1</p>
+         <p id="message"> paragraph is </p>
 
 
     </div>
+
+    <div>
+        <input type="radio" name="language" value="js">
+        <input type="radio" name="language" value="python">
+    </div>
     <script src="./script.js"></script>
     <script>
+        //  get Elementby id 
         let msg = document.getElementById("message");
         console.log(msg)
+        
+        //    get elements by Name = nodelist (it's a nodelist)
+        let btn = document.getElementsByName("language")
+        console.log(btn)
     </script>
 </body>
 </html>
