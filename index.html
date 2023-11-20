@@ -6,17 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-     
+     <!-- get ID start -->
     <div>
          <p id="message"> paragraph is para1</p>
          <p id="message"> paragraph is </p>
 
 
     </div>
-
+    <!-- get id end -->
+<!--  get by name start -->
     <div>
         <input type="radio" name="language" value="js">
         <input type="radio" name="language" value="python">
+    </div>
+    <!--  get by name end -->
+
+    <div>
+        <h1>first heading</h1>
+        <h1>second heading</h1>
+        <h1>third heading</h1>
+        <h1>fourth heading</h1>
+
     </div>
     <script src="./script.js"></script>
     <script>
@@ -26,7 +36,13 @@
         
         //    get elements by Name = nodelist (it's a nodelist)
         let btn = document.getElementsByName("language")
+        // nodeList
         console.log(btn)
+
+
+        let heading = document.getElementsByTagName("h1")
+        //   htmlCollection
+        console.log(heading)
     </script>
 </body>
 </html>
