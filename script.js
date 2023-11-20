@@ -1,8 +1,7 @@
-const heading =  document.getElementsByTagName('h1');
-console.log(heading)
+// const heading = document.querySelector('.heading');
+// const parent = heading.parentNode;
+// console.log(parent)
 
-const  heading2 = document.getElementsByClassName('test1');
-console.log(heading2)
+// parentElement is new to Firefox 9 and to DOM4, but it has been present in all other major browsers for ages.
 
-const para = document.querySelector('.para') ;
-console.log(para)   
+// In most cases, it is the same as parentNode. The only difference comes when a node's parentNode is not an element. If so, parentElement is null.
